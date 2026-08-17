@@ -1,0 +1,10 @@
+KLA NOISE-AWARE DnCNN LPIPS EVALUATION
+======================================================================
+Images evaluated : 3200
+Mean MSE         : 0.00290558
+Mean PSNR        : 27.9726 dB
+Mean SSIM        : 0.750927
+Mean LPIPS       : 0.300250
+Mean inference   : 19.97 ms/image
+Median inference : 19.94 ms/image
+======================================================================

@@ -1,0 +1,16 @@
+KLA SUPER-RESOLUTION EVALUATION
+======================================================================
+Images evaluated : 320
+Mean MSE         : 0.00415730
+Mean MAE         : 0.04573478
+Mean PSNR        : 25.1225 dB
+Mean SSIM        : 0.739005
+Mean LPIPS       : 0.309509
+Mean inference   : 146.47 ms/image
+Median inference : 146.16 ms/image
+Device           : cpu
+GPU              : CPU
+Checkpoint path  : D:\KLA_Image_Restoration\checkpoints\best_noise_aware_dncnn.pth
+Checkpoint epoch : 48
+Best val loss    : 0.0025563989940565078
+======================================================================

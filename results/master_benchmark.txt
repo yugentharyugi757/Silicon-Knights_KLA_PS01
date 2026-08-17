@@ -1,0 +1,202 @@
+======================================================================
+KLA IMAGE RESTORATION - MASTER BENCHMARK
+======================================================================
+
+FINAL MODEL BENCHMARKS
+----------------------
+Evaluation: Noise-Aware DnCNN
+Source file: final_test_results.csv
+MSE: 0.00271895
+MAE: 0.03212717
+PSNR: 27.8571 dB
+SSIM: 0.746004
+LPIPS: 0.305770
+Mean inference: 63.59 ms
+Median inference: 71.18 ms
+
+Evaluation: Super-Resolution
+Source file: super_resolution_summary.csv
+MSE: 0.00415730
+MAE: 0.04573478
+PSNR: 25.1225 dB
+SSIM: 0.739005
+LPIPS: 0.309509
+Mean inference: 146.47 ms
+Median inference: 146.16 ms
+
+DEGRADATION ROBUSTNESS RESULTS
+-----------------------------
+Evaluation: Gaussian sigma 0.01
+Degradation: Gaussian Noise
+Gaussian sigma: 0.01
+MSE: 0.00313128
+MAE: 0.03940385
+PSNR: 26.4503 dB
+SSIM: 0.755631
+LPIPS: N/A
+Mean inference: N/A
+Median inference: N/A
+
+Evaluation: Gaussian sigma 0.03
+Degradation: Gaussian Noise
+Gaussian sigma: 0.03
+MSE: 0.00294075
+MAE: 0.03788443
+PSNR: 26.7625 dB
+SSIM: 0.741081
+LPIPS: N/A
+Mean inference: N/A
+Median inference: N/A
+
+Evaluation: Gaussian sigma 0.05
+Degradation: Gaussian Noise
+Gaussian sigma: 0.05
+MSE: 0.00297388
+MAE: 0.03841682
+PSNR: 26.5853 dB
+SSIM: 0.708719
+LPIPS: N/A
+Mean inference: N/A
+Median inference: N/A
+
+Evaluation: Speckle sigma 0.05
+Degradation: Speckle
+Speckle sigma: 0.05
+MSE: 0.00334868
+MAE: 0.03201854
+PSNR: 28.4415 dB
+SSIM: 0.737133
+LPIPS: N/A
+Mean inference: 12.87 ms
+Median inference: 12.05 ms
+
+Evaluation: Speckle sigma 0.10
+Degradation: Speckle
+Speckle sigma: 0.10
+MSE: 0.00336467
+MAE: 0.03221602
+PSNR: 28.3740 dB
+SSIM: 0.736705
+LPIPS: N/A
+Mean inference: 15.77 ms
+Median inference: 15.63 ms
+
+Evaluation: Speckle sigma 0.20
+Degradation: Speckle
+Speckle sigma: 0.20
+MSE: 0.00344298
+MAE: 0.03307735
+PSNR: 28.0839 dB
+SSIM: 0.734398
+LPIPS: N/A
+Mean inference: 15.91 ms
+Median inference: 15.64 ms
+
+Evaluation: Gaussian sigma 0.01 + Speckle sigma 0.05
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.01
+Speckle sigma: 0.05
+MSE: 0.00280210
+MAE: 0.03291858
+PSNR: 27.6427 dB
+SSIM: 0.739778
+LPIPS: N/A
+Mean inference: 10.50 ms
+Median inference: 9.80 ms
+
+Evaluation: Gaussian sigma 0.01 + Speckle sigma 0.10
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.01
+Speckle sigma: 0.10
+MSE: 0.00304067
+MAE: 0.03483998
+PSNR: 27.1088 dB
+SSIM: 0.723938
+LPIPS: N/A
+Mean inference: 9.84 ms
+Median inference: 9.82 ms
+
+Evaluation: Gaussian sigma 0.01 + Speckle sigma 0.20
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.01
+Speckle sigma: 0.20
+MSE: 0.00491666
+MAE: 0.04708514
+PSNR: 24.2145 dB
+SSIM: 0.603755
+LPIPS: N/A
+Mean inference: 9.86 ms
+Median inference: 9.83 ms
+
+Evaluation: Gaussian sigma 0.03 + Speckle sigma 0.05
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.03
+Speckle sigma: 0.05
+MSE: 0.00297168
+MAE: 0.03493125
+PSNR: 27.1649 dB
+SSIM: 0.715788
+LPIPS: N/A
+Mean inference: 9.83 ms
+Median inference: 9.79 ms
+
+Evaluation: Gaussian sigma 0.03 + Speckle sigma 0.10
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.03
+Speckle sigma: 0.10
+MSE: 0.00324357
+MAE: 0.03705362
+PSNR: 26.6026 dB
+SSIM: 0.696309
+LPIPS: N/A
+Mean inference: 9.81 ms
+Median inference: 9.79 ms
+
+Evaluation: Gaussian sigma 0.03 + Speckle sigma 0.20
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.03
+Speckle sigma: 0.20
+MSE: 0.00521133
+MAE: 0.04961500
+PSNR: 23.8183 dB
+SSIM: 0.572697
+LPIPS: N/A
+Mean inference: 9.95 ms
+Median inference: 9.91 ms
+
+Evaluation: Gaussian sigma 0.05 + Speckle sigma 0.05
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.05
+Speckle sigma: 0.05
+MSE: 0.00340534
+MAE: 0.03909331
+PSNR: 26.1787 dB
+SSIM: 0.662587
+LPIPS: N/A
+Mean inference: 9.91 ms
+Median inference: 9.87 ms
+
+Evaluation: Gaussian sigma 0.05 + Speckle sigma 0.10
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.05
+Speckle sigma: 0.10
+MSE: 0.00373534
+MAE: 0.04149469
+PSNR: 25.6205 dB
+SSIM: 0.639123
+LPIPS: N/A
+Mean inference: 9.90 ms
+Median inference: 9.86 ms
+
+Evaluation: Gaussian sigma 0.05 + Speckle sigma 0.20
+Degradation: Gaussian + Speckle
+Gaussian sigma: 0.05
+Speckle sigma: 0.20
+MSE: 0.00591314
+MAE: 0.05453292
+PSNR: 23.0465 dB
+SSIM: 0.517451
+LPIPS: N/A
+Mean inference: 9.93 ms
+Median inference: 9.86 ms
+

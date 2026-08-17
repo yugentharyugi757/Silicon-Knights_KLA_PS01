@@ -1,0 +1,38 @@
+KLA ABLATION STUDY
+======================================================================
+Images evaluated : 320
+Device           : cuda
+GPU              : NVIDIA GeForce RTX 3050 Laptop GPU
+
+BASELINE DnCNN
+======================================================================
+Checkpoint path  : D:\KLA_Image_Restoration\checkpoints\best_dncnn.pth
+Mean MSE         : 0.00288912
+Mean MAE         : 0.03318886
+Mean PSNR        : 27.4895 dB
+Mean SSIM        : 0.736255
+Mean LPIPS       : 0.298685
+Pure model inference time (mean) : 33.66 ms/image
+Pure model inference time (median) : 22.67 ms/image
+
+NOISE-AWARE DnCNN
+======================================================================
+Checkpoint path  : D:\KLA_Image_Restoration\checkpoints\best_noise_aware_dncnn.pth
+Checkpoint epoch : 48
+Best val loss    : 0.0025563989940565078
+Mean MSE         : 0.00271895
+Mean MAE         : 0.03212717
+Mean PSNR        : 27.8571 dB
+Mean SSIM        : 0.746004
+Mean LPIPS       : 0.305770
+Pure model inference time (mean) : 32.64 ms/image
+Pure model inference time (median) : 22.48 ms/image
+
+IMPROVEMENT (Noise-Aware vs Baseline)
+======================================================================
+PSNR difference  : +0.3676 dB
+SSIM difference  : +0.009750
+LPIPS difference : -0.007086 (lower is better)
+MSE difference   : +0.00017017 (lower is better)
+Inference time (ms/image) : +1.01
+======================================================================

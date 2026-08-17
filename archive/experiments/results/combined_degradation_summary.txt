@@ -1,0 +1,88 @@
+KLA COMBINED DEGRADATION EVALUATION
+======================================================================
+
+Device: cuda
+GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+Test images: 320
+
+Gaussian sigma: 0.010
+Speckle sigma: 0.050
+MSE: 0.00280210
+MAE: 0.03291858
+PSNR: 27.6427 dB
+SSIM: 0.739778
+Mean inference: 10.50 ms/image
+Median inference: 9.80 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.010
+Speckle sigma: 0.100
+MSE: 0.00304067
+MAE: 0.03483998
+PSNR: 27.1088 dB
+SSIM: 0.723938
+Mean inference: 9.84 ms/image
+Median inference: 9.82 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.010
+Speckle sigma: 0.200
+MSE: 0.00491666
+MAE: 0.04708514
+PSNR: 24.2145 dB
+SSIM: 0.603755
+Mean inference: 9.86 ms/image
+Median inference: 9.83 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.030
+Speckle sigma: 0.050
+MSE: 0.00297168
+MAE: 0.03493125
+PSNR: 27.1649 dB
+SSIM: 0.715788
+Mean inference: 9.83 ms/image
+Median inference: 9.79 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.030
+Speckle sigma: 0.100
+MSE: 0.00324357
+MAE: 0.03705362
+PSNR: 26.6026 dB
+SSIM: 0.696309
+Mean inference: 9.81 ms/image
+Median inference: 9.79 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.030
+Speckle sigma: 0.200
+MSE: 0.00521133
+MAE: 0.04961500
+PSNR: 23.8183 dB
+SSIM: 0.572697
+Mean inference: 9.95 ms/image
+Median inference: 9.91 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.050
+Speckle sigma: 0.050
+MSE: 0.00340534
+MAE: 0.03909331
+PSNR: 26.1787 dB
+SSIM: 0.662587
+Mean inference: 9.91 ms/image
+Median inference: 9.87 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.050
+Speckle sigma: 0.100
+MSE: 0.00373534
+MAE: 0.04149469
+PSNR: 25.6205 dB
+SSIM: 0.639123
+Mean inference: 9.90 ms/image
+Median inference: 9.86 ms/image
+----------------------------------------------------------------------
+Gaussian sigma: 0.050
+Speckle sigma: 0.200
+MSE: 0.00591314
+MAE: 0.05453292
+PSNR: 23.0465 dB
+SSIM: 0.517451
+Mean inference: 9.93 ms/image
+Median inference: 9.86 ms/image
+----------------------------------------------------------------------

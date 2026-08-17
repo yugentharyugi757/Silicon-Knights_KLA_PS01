@@ -1,0 +1,8 @@
+KLA DnCNN TEST RESULTS
+============================================================
+Images evaluated: 320
+Mean MSE: 0.00288912
+Mean PSNR: 27.4895 dB
+Mean SSIM: 0.736255
+Mean inference time: 22.30 ms/image
+Median inference time: 11.90 ms/image

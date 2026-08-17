@@ -1,0 +1,16 @@
+KLA FINAL NOISE-AWARE DnCNN BENCHMARK
+======================================================================
+Images evaluated : 320
+Mean MSE         : 0.00271895
+Mean MAE         : 0.03212717
+Mean PSNR        : 27.8571 dB
+Mean SSIM        : 0.746004
+Mean LPIPS       : 0.305770
+Pure model inference time (mean) : 64.13 ms/image
+Pure model inference time (median) : 71.30 ms/image
+Device           : cuda
+GPU              : NVIDIA GeForce RTX 3050 Laptop GPU
+Checkpoint path  : D:\KLA_Image_Restoration\checkpoints\best_noise_aware_dncnn.pth
+Checkpoint epoch : 48
+Best val loss    : 0.0025563989940565078
+======================================================================
