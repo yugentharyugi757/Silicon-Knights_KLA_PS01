@@ -13,6 +13,7 @@ __pycache__/
 
 # Environment variables / secrets
 .env
+.env.*
 
 # Build / packaging
 build/
@@ -45,22 +46,13 @@ Thumbs.db
 # Logs
 *.log
 
-# Local data/outputs (if creating new experiments)
-# Uncomment if needed:
-# local_outputs/
-# local_experiments/
-# Large datasets
-train/NoisyLR/
-train/GT/
-
 
 # Generated outputs
 outputs/
 
-
-# Large datasets
-train/NoisyLR/
+# Local submission tests
+test_input/
+test_output/
+# Large training datasets
 train/GT/
-# Generated outputs
-outputs/
-
+train/NoisyLR/

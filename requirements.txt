@@ -1,8 +1,8 @@
-torch
-torchvision
-numpy
-Pillow
-scikit-image
-lpips
-matplotlib
-pandas
+torch==2.13.0+cu132
+torchvision==0.28.0+cu132
+numpy==2.4.4
+Pillow==12.1.1
+scikit-image==0.26.0
+lpips==0.1.4
+matplotlib==3.10.8
+pandas==3.0.2
