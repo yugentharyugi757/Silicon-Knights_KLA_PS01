@@ -128,3 +128,17 @@ The training and evaluator scripts fix seed 42 and use the same 80%/10%/10% spli
 ## License
 
 No license file is currently provided. All rights and reuse terms should be clarified by the repository owner before redistribution.
+
+## Official KLA Submission Inference
+
+Run the final restoration pipeline using:
+
+    python run.py <input-dir> <output-dir>
+
+Example:
+
+    python run.py test_input test_output
+
+The input directory must contain grayscale .npy files. The output directory is created automatically and contains one restored .npy file for every input, using the same filename.
+
+The restored output is a grayscale (H, W) array with loat32 values in the range [0, 1]. The pipeline uses the supplied final checkpoint at checkpoints/best_noise_aware_dncnn.pth and automatically uses CUDA when an NVIDIA GPU is available.
